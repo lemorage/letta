@@ -1,7 +1,5 @@
 name: poetry-publish-nightly
 on:
-  schedule:
-    - cron: '35 10 * * *' # 10:35am UTC, 2:35am PST, 5:35am EST
   release:
     types: [published]
   workflow_dispatch:
